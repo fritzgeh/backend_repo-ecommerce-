@@ -1,0 +1,23 @@
+{
+  "name": "project01_ecommerce-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fritz G.",
+  "license": "ISC",
+  "bugs": {
+    "email": "git@github/.com:fritzgehFritz_Repo..git"
+  },
+  "dependencies": {
+    "fashion": "^1.0.2",
+    "winter": "^0.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
