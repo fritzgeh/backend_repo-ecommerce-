@@ -1,4 +1,5 @@
 html{
+    background-color: #232c5b;
     scroll-behavior: smooth;
     font-family: 'League Spartan', sans-serif;
 }
@@ -6,12 +7,11 @@ html{
 body{
     font-family:"loto", sans-serif;
     padding: 0;
-    margine: 0;
 }
 
 nav{
     background-color: #232c5b;
-    color: white;
+    color: rgb(119, 20, 20);
     padding: 20px 50px
 }
 
