@@ -8,7 +8,7 @@ router.get("/users",(req, res) => {
 })
 
 router.post("/users",(req, res) => {
-    UserModel.create(req.body).then((user) =>{
+    UserModel.create(req.body).then((user) => {
         res.send(user)
     })
 })
@@ -18,7 +18,7 @@ router.put("/users/:id",(req, res) => {
         res.send(user)
     })
 })
-
+git
 router.delete("/users/:id",(req, res) => {
     UserModel.findByIdAndDelete({_id:req.params.id}).then((user) =>{
         res.send(user)
