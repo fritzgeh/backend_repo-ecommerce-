@@ -18,7 +18,6 @@ router.put("/users/:id",(req, res) => {
         res.send(user)
     })
 })
-git
 router.delete("/users/:id",(req, res) => {
     UserModel.findByIdAndDelete({_id:req.params.id}).then((user) =>{
         res.send(user)
