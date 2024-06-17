@@ -1,5 +1,4 @@
 const express = require("express")
-
 const router = express.Router()
 const UserModel = require("./schema.js")
 
@@ -18,6 +17,7 @@ router.put("/users/:id",(req, res) => {
         res.send(user)
     })
 })
+
 router.delete("/users/:id",(req, res) => {
     UserModel.findByIdAndDelete({_id:req.params.id}).then((user) =>{
         res.send(user)

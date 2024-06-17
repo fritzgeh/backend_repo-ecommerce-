@@ -2,9 +2,13 @@
   "name": "project01_ecommerce-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "jest" : {
+    "verbose": true
   },
   "keywords": [],
   "author": "Fritz G.",
