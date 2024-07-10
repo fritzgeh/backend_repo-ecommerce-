@@ -1,6 +1,6 @@
 const Order = require ("../models/order")
 
-exports.creatOrder = async (req, res) => {
+exports.createOrder = async (req, res) => {
     const { userId, products, totalAmount } = req.body
     const order = new Order ({user: userId, products, totalAmount})
     await order.save()
